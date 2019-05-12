@@ -11,6 +11,11 @@ const codes = [
   "a"
 ];
 
-function init(e) {
-  let userPress = e.key;
+function init() {
+  document.body.addEventListener("keypress", order())
+  function order() {
+    console.log('what');
+  }
 }
+
+init();
