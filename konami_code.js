@@ -11,6 +11,6 @@ const codes = [
   "a"
 ];
 
-function init() {
-  // your code here
+function init(e) {
+  let userPress = e.key;
 }
