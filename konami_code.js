@@ -13,5 +13,5 @@ const codes = [
 
 function init(e) {
   let userPress = e.key;
-  console.log(key)
 }
+
